@@ -1,180 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="5.0">
-	<file name="/usr/lib/go/src/net/lookup_unix.go">
-		<error column="24" line="54" message="undeclared name: cgoLookupHost" severity="warning" source="unconvert"/>
-		<error column="24" line="54" message="undeclared name: cgoLookupHost" severity="warning" source="gosimple"/>
-		<error column="24" line="69" message="undeclared name: cgoLookupIP" severity="warning" source="gosimple"/>
-		<error column="23" line="81" message="undeclared name: cgoLookupPort" severity="warning" source="gosimple"/>
-		<error column="24" line="97" message="undeclared name: cgoLookupCNAME" severity="warning" source="gosimple"/>
-		<error column="23" line="164" message="undeclared name: cgoLookupPTR" severity="warning" source="gosimple"/>
-		<error column="23" line="81" message="unused struct field undeclared name: cgoLookupPort" severity="warning" source="structcheck"/>
-		<error column="24" line="97" message="unused struct field undeclared name: cgoLookupCNAME" severity="warning" source="structcheck"/>
-		<error column="23" line="164" message="unused struct field undeclared name: cgoLookupPTR" severity="warning" source="structcheck"/>
-		<error column="24" line="54" message="unused struct field undeclared name: cgoLookupHost" severity="warning" source="structcheck"/>
-		<error column="24" line="69" message="unused struct field undeclared name: cgoLookupIP" severity="warning" source="structcheck"/>
-		<error column="24" line="54" message="undeclared name: cgoLookupHost" severity="warning" source="staticcheck"/>
-		<error column="24" line="69" message="undeclared name: cgoLookupIP" severity="warning" source="staticcheck"/>
-		<error column="23" line="81" message="undeclared name: cgoLookupPort" severity="warning" source="staticcheck"/>
-		<error column="24" line="97" message="undeclared name: cgoLookupCNAME" severity="warning" source="staticcheck"/>
-		<error column="23" line="164" message="undeclared name: cgoLookupPTR" severity="warning" source="staticcheck"/>
-		<error column="23" line="164" message="undeclared name: cgoLookupPTR" severity="warning" source="aligncheck"/>
-		<error column="24" line="97" message="undeclared name: cgoLookupCNAME" severity="warning" source="aligncheck"/>
-		<error column="23" line="164" message="error return value not checked (undeclared name: cgoLookupPTR)" severity="warning" source="errcheck"/>
-		<error column="23" line="81" message="undeclared name: cgoLookupPort" severity="warning" source="aligncheck"/>
-		<error column="24" line="69" message="undeclared name: cgoLookupIP" severity="warning" source="aligncheck"/>
-		<error column="24" line="69" message="undeclared name: cgoLookupIP" severity="warning" source="unconvert"/>
-		<error column="23" line="81" message="undeclared name: cgoLookupPort" severity="warning" source="unconvert"/>
-		<error column="24" line="97" message="undeclared name: cgoLookupCNAME" severity="warning" source="unconvert"/>
-		<error column="23" line="164" message="undeclared name: cgoLookupPTR" severity="warning" source="unconvert"/>
-		<error column="24" line="97" message="error return value not checked (undeclared name: cgoLookupCNAME)" severity="warning" source="errcheck"/>
-		<error column="24" line="54" message="undeclared name: cgoLookupHost" severity="warning" source="aligncheck"/>
-		<error column="23" line="81" message="error return value not checked (undeclared name: cgoLookupPort)" severity="warning" source="errcheck"/>
-		<error column="24" line="54" message="unused variable or constant undeclared name: cgoLookupHost" severity="warning" source="varcheck"/>
-		<error column="24" line="69" message="error return value not checked (undeclared name: cgoLookupIP)" severity="warning" source="errcheck"/>
-		<error column="24" line="69" message="unused variable or constant undeclared name: cgoLookupIP" severity="warning" source="varcheck"/>
-		<error column="24" line="54" message="error return value not checked (undeclared name: cgoLookupHost)" severity="warning" source="errcheck"/>
-		<error column="23" line="164" message="unused variable or constant undeclared name: cgoLookupPTR" severity="warning" source="varcheck"/>
-		<error column="23" line="81" message="unused variable or constant undeclared name: cgoLookupPort" severity="warning" source="varcheck"/>
-		<error column="24" line="97" message="unused variable or constant undeclared name: cgoLookupCNAME" severity="warning" source="varcheck"/>
-	</file>
-	<file name="big.go">
-		<error column="6" line="7" message="other declaration of main" severity="warning" source="unconvert"/>
-		<error column="6" line="7" message="other declaration of main" severity="warning" source="unconvert"/>
-		<error column="6" line="7" message="unused variable or constant other declaration of main" severity="warning" source="varcheck"/>
-		<error column="6" line="7" message="unused variable or constant other declaration of main" severity="warning" source="varcheck"/>
-		<error column="6" line="7" message="unused variable or constant other declaration of main" severity="warning" source="varcheck"/>
-		<error column="6" line="7" message="unused variable or constant other declaration of main" severity="warning" source="varcheck"/>
-		<error column="6" line="7" message="unused variable or constant other declaration of main" severity="warning" source="varcheck"/>
-		<error column="6" line="7" message="unused variable or constant other declaration of main" severity="warning" source="varcheck"/>
-		<error column="6" line="7" message="other declaration of main" severity="warning" source="unconvert"/>
-		<error column="6" line="7" message="unused variable or constant other declaration of main" severity="warning" source="varcheck"/>
-		<error column="6" line="7" message="other declaration of main" severity="warning" source="unconvert"/>
-		<error column="6" line="7" message="other declaration of main" severity="warning" source="unconvert"/>
-		<error column="6" line="7" message="other declaration of main" severity="warning" source="staticcheck"/>
-		<error column="6" line="7" message="other declaration of main" severity="warning" source="staticcheck"/>
-		<error column="6" line="7" message="other declaration of main" severity="warning" source="staticcheck"/>
-		<error column="6" line="7" message="other declaration of main" severity="warning" source="staticcheck"/>
-		<error column="6" line="7" message="main redeclared in this block" severity="error" source="gotype"/>
-		<error column="6" line="7" message="other declaration of main" severity="warning" source="staticcheck"/>
-		<error column="6" line="7" message="other declaration of main" severity="warning" source="unconvert"/>
-		<error column="6" line="7" message="error return value not checked (other declaration of main)" severity="warning" source="errcheck"/>
-		<error column="6" line="7" message="other declaration of main" severity="warning" source="gosimple"/>
-		<error column="6" line="7" message="other declaration of main" severity="warning" source="gosimple"/>
-		<error column="6" line="7" message="error return value not checked (other declaration of main)" severity="warning" source="errcheck"/>
-		<error column="6" line="7" message="other declaration of main" severity="warning" source="staticcheck"/>
-		<error column="6" line="7" message="other declaration of main" severity="warning" source="aligncheck"/>
-		<error column="6" line="7" message="other declaration of main" severity="warning" source="staticcheck"/>
-		<error column="6" line="7" message="other declaration of main" severity="warning" source="aligncheck"/>
-		<error column="6" line="7" message="other declaration of main" severity="warning" source="gosimple"/>
-		<error column="6" line="7" message="other declaration of main" severity="warning" source="aligncheck"/>
-		<error column="6" line="7" message="error return value not checked (other declaration of main)" severity="warning" source="errcheck"/>
-		<error column="6" line="7" message="other declaration of main" severity="warning" source="aligncheck"/>
-		<error column="6" line="7" message="other declaration of main" severity="warning" source="gosimple"/>
-		<error column="6" line="7" message="other declaration of main" severity="warning" source="aligncheck"/>
-		<error column="6" line="7" message="error return value not checked (other declaration of main)" severity="warning" source="errcheck"/>
-		<error column="6" line="7" message="other declaration of main" severity="warning" source="aligncheck"/>
-		<error column="6" line="7" message="other declaration of main" severity="warning" source="gosimple"/>
-		<error column="6" line="7" message="other declaration of main" severity="warning" source="aligncheck"/>
-		<error column="6" line="7" message="unused struct field other declaration of main" severity="warning" source="structcheck"/>
-		<error column="6" line="7" message="other declaration of main" severity="warning" source="gosimple"/>
-		<error column="6" line="7" message="unused struct field other declaration of main" severity="warning" source="structcheck"/>
-		<error column="6" line="7" message="unused struct field other declaration of main" severity="warning" source="structcheck"/>
-		<error column="6" line="7" message="unused struct field other declaration of main" severity="warning" source="structcheck"/>
-		<error column="6" line="7" message="unused struct field other declaration of main" severity="warning" source="structcheck"/>
-		<error column="6" line="7" message="unused struct field other declaration of main" severity="warning" source="structcheck"/>
-		<error column="6" line="7" message="other declaration of main" severity="warning" source="unconvert"/>
-		<error column="6" line="7" message="error return value not checked (other declaration of main)" severity="warning" source="errcheck"/>
-		<error column="6" line="7" message="other declaration of main" severity="warning" source="gosimple"/>
-		<error column="6" line="7" message="error return value not checked (other declaration of main)" severity="warning" source="errcheck"/>
-		<error column="6" line="7" message="unused struct field other declaration of main" severity="warning" source="structcheck"/>
-		<error column="6" line="7" message="error return value not checked (other declaration of main)" severity="warning" source="errcheck"/>
-	</file>
 	<file name="bind.go">
-		<error column="6" line="6" message="main redeclared in this block" severity="error" source="gotype"/>
-		<error column="6" line="6" message="main redeclared in this block" severity="warning" source="gosimple"/>
-		<error column="6" line="6" message="error return value not checked (main redeclared in this block)" severity="warning" source="errcheck"/>
-		<error column="6" line="6" message="unused struct field main redeclared in this block" severity="warning" source="structcheck"/>
-		<error column="6" line="6" message="main redeclared in this block" severity="warning" source="unconvert"/>
-		<error column="6" line="6" message="main redeclared in this block" severity="warning" source="staticcheck"/>
-		<error column="6" line="6" message="main redeclared in this block" severity="warning" source="interfacer"/>
-		<error column="6" line="6" message="main redeclared in this block" severity="warning" source="aligncheck"/>
 		<error column="0" line="7" message="Binds to all network interfaces,MEDIUM,HIGH" severity="warning" source="gas"/>
-		<error column="6" line="6" message="unused variable or constant main redeclared in this block" severity="warning" source="varcheck"/>
-	</file>
-	<file name="blacklist.go">
-		<error column="6" line="7" message="main redeclared in this block" severity="error" source="gotype"/>
-		<error column="6" line="7" message="main redeclared in this block" severity="warning" source="staticcheck"/>
-		<error column="6" line="7" message="unused variable or constant main redeclared in this block" severity="warning" source="varcheck"/>
-		<error column="6" line="7" message="main redeclared in this block" severity="warning" source="aligncheck"/>
-		<error column="6" line="7" message="unused struct field main redeclared in this block" severity="warning" source="structcheck"/>
-		<error column="6" line="7" message="main redeclared in this block" severity="warning" source="gosimple"/>
-		<error column="6" line="7" message="error return value not checked (main redeclared in this block)" severity="warning" source="errcheck"/>
-		<error column="6" line="7" message="main redeclared in this block" severity="warning" source="unconvert"/>
 	</file>
 	<file name="errors1.go">
-		<error column="6" line="11" message="error return value not checked (main redeclared in this block)" severity="warning" source="errcheck"/>
-		<error column="6" line="11" message="other declaration of main" severity="error" source="gotype"/>
-		<error column="6" line="11" message="unused variable or constant main redeclared in this block" severity="warning" source="varcheck"/>
-		<error column="6" line="11" message="main redeclared in this block" severity="warning" source="aligncheck"/>
 		<error column="0" line="12" message="Errors unhandled.,LOW,HIGH" severity="warning" source="gas"/>
-		<error column="6" line="11" message="other declaration of main" severity="error" source="gotype"/>
-		<error column="6" line="11" message="main redeclared in this block" severity="warning" source="gosimple"/>
-		<error column="6" line="11" message="unused struct field main redeclared in this block" severity="warning" source="structcheck"/>
-		<error column="6" line="11" message="main redeclared in this block" severity="warning" source="staticcheck"/>
-		<error column="6" line="11" message="other declaration of main" severity="error" source="gotype"/>
-		<error column="6" line="11" message="other declaration of main" severity="error" source="gotype"/>
-		<error column="6" line="11" message="other declaration of main" severity="error" source="gotype"/>
-		<error column="6" line="11" message="other declaration of main" severity="error" source="gotype"/>
-		<error column="6" line="11" message="main redeclared in this block" severity="warning" source="unconvert"/>
-		<error column="6" line="11" message="other declaration of main" severity="error" source="gotype"/>
 	</file>
 	<file name="fileperms.go">
-		<error column="6" line="3" message="main redeclared in this block" severity="warning" source="staticcheck"/>
-		<error column="6" line="3" message="main redeclared in this block" severity="warning" source="unconvert"/>
-		<error column="6" line="3" message="main redeclared in this block" severity="warning" source="aligncheck"/>
-		<error column="6" line="3" message="main redeclared in this block" severity="warning" source="gosimple"/>
-		<error column="6" line="3" message="main redeclared in this block" severity="error" source="gotype"/>
-		<error column="6" line="3" message="error return value not checked (main redeclared in this block)" severity="warning" source="errcheck"/>
 		<error column="0" line="4" message="Errors unhandled.,LOW,HIGH" severity="warning" source="gas"/>
 		<error column="0" line="4" message="Expect file permissions to be 0600 or less,MEDIUM,HIGH" severity="warning" source="gas"/>
-		<error column="6" line="3" message="unused struct field main redeclared in this block" severity="warning" source="structcheck"/>
 		<error column="0" line="5" message="Errors unhandled.,LOW,HIGH" severity="warning" source="gas"/>
 		<error column="0" line="6" message="Errors unhandled.,LOW,HIGH" severity="warning" source="gas"/>
 		<error column="0" line="6" message="Expect file permissions to be 0600 or less,MEDIUM,HIGH" severity="warning" source="gas"/>
-		<error column="6" line="3" message="unused variable or constant main redeclared in this block" severity="warning" source="varcheck"/>
 		<error column="0" line="7" message="Errors unhandled.,LOW,HIGH" severity="warning" source="gas"/>
 	</file>
 	<file name="rsa.go">
 		<error column="0" line="12" message="RSA keys should be at least 2048 bits,MEDIUM,HIGH" severity="warning" source="gas"/>
-		<error column="6" line="9" message="main redeclared in this block" severity="error" source="gotype"/>
-		<error column="6" line="9" message="unused variable or constant main redeclared in this block" severity="warning" source="varcheck"/>
-		<error column="6" line="9" message="unused struct field main redeclared in this block" severity="warning" source="structcheck"/>
-		<error column="6" line="9" message="main redeclared in this block" severity="warning" source="aligncheck"/>
-		<error column="6" line="9" message="error return value not checked (main redeclared in this block)" severity="warning" source="errcheck"/>
-		<error column="6" line="9" message="main redeclared in this block" severity="warning" source="staticcheck"/>
-		<error column="6" line="9" message="main redeclared in this block" severity="warning" source="unconvert"/>
-		<error column="6" line="9" message="main redeclared in this block" severity="warning" source="gosimple"/>
 	</file>
 	<file name="sql_concat.go">
-		<error column="6" line="7" message="main redeclared in this block" severity="warning" source="staticcheck"/>
-		<error column="6" line="7" message="main redeclared in this block" severity="error" source="gotype"/>
-		<error column="6" line="7" message="error return value not checked (main redeclared in this block)" severity="warning" source="errcheck"/>
-		<error column="6" line="7" message="main redeclared in this block" severity="warning" source="unconvert"/>
-		<error column="6" line="7" message="unused variable or constant main redeclared in this block" severity="warning" source="varcheck"/>
-		<error column="6" line="7" message="main redeclared in this block" severity="warning" source="gosimple"/>
 		<error column="0" line="12" message="SQL string concatenation,MEDIUM,HIGH" severity="warning" source="gas"/>
-		<error column="6" line="7" message="unused struct field main redeclared in this block" severity="warning" source="structcheck"/>
-		<error column="6" line="7" message="main redeclared in this block" severity="warning" source="aligncheck"/>
 	</file>
 	<file name="sql_formatting.go">
-		<error column="6" line="8" message="unused struct field main redeclared in this block" severity="warning" source="structcheck"/>
-		<error column="6" line="8" message="main redeclared in this block" severity="warning" source="aligncheck"/>
 		<error column="0" line="13" message="SQL string formatting,MEDIUM,HIGH" severity="warning" source="gas"/>
-		<error column="6" line="8" message="main redeclared in this block" severity="warning" source="gosimple"/>
-		<error column="6" line="8" message="main redeclared in this block" severity="warning" source="staticcheck"/>
-		<error column="6" line="8" message="unused variable or constant main redeclared in this block" severity="warning" source="varcheck"/>
-		<error column="6" line="8" message="main redeclared in this block" severity="warning" source="unconvert"/>
-		<error column="6" line="8" message="error return value not checked (main redeclared in this block)" severity="warning" source="errcheck"/>
-		<error column="6" line="8" message="main redeclared in this block" severity="error" source="gotype"/>
+	</file>
+	<file name="template.go">
+		<error column="0" line="15" message="this method will not auto-escape HTML. Verify data is well formed.,MEDIUM,LOW" severity="warning" source="gas"/>
+		<error column="0" line="17" message="Errors unhandled.,LOW,HIGH" severity="warning" source="gas"/>
+	</file>
+	<file name="unsafe.go">
+		<error column="0" line="19" message="Use of unsafe calls should be audited,LOW,HIGH" severity="warning" source="gas"/>
+		<error column="0" line="19" message="Use of unsafe calls should be audited,LOW,HIGH" severity="warning" source="gas"/>
+		<error column="0" line="20" message="Use of unsafe calls should be audited,LOW,HIGH" severity="warning" source="gas"/>
+	</file>
+	<file name="weakcrypto.go">
+		<error column="0" line="5" message="Use of weak cryptographic primitive,HIGH,HIGH" severity="warning" source="gas"/>
+		<error column="0" line="13" message="Use of weak cryptographic primitive,MEDIUM,HIGH" severity="warning" source="gas"/>
 	</file>
 </checkstyle>
