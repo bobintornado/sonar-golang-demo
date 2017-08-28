@@ -1,6 +1,6 @@
 # sonar-golang-demo
 
-Demo project contain bad golang codes for generating sonarqube reports
+Demo project contain bad golang codes for generating sample reports
 
 ## Usage
 
