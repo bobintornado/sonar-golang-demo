@@ -2,5 +2,5 @@ projectKey=sonar-golang-demo
 serverUrl=http://localhost:9000
 serverVersion=6.5.0.27846
 dashboardUrl=http://localhost:9000/dashboard/index/sonar-golang-demo
-ceTaskId=AV4nzA6DaCRXJi0O2L7M
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AV4nzA6DaCRXJi0O2L7M
+ceTaskId=AV4osalXRkd8FIshJ-ea
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AV4osalXRkd8FIshJ-ea
